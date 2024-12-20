@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportshop Ilaro</title>
+    <style>
+        /* Algemene stijlen */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0078D7;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #0078D7;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .feature {
+            flex: 1;
+            max-width: 300px;
+            margin: 10px;
+            text-align: center;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+        }
+
+        .feature img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #0a0a0a;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Sportshop Ilaro Logo">
+        <h1>Sportshop Ilaro</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Over Ons</a>
+        <a href="#products">Onze Producten</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="section" id="about">
+        <h2>Over Ons</h2>
+        <p>Bij Sportshop Ilaro hebben we een duidelijke visie: sport en duurzaamheid samenbrengen. In een wereld waarin klimaatverandering en milieuproblemen steeds belangrijker worden, geloven wij dat iedereen zijn steentje kan bijdragen, ook in de sportwereld. Sport is een manier om gezond te blijven en grenzen te verleggen, maar ook een sector waarin vaak gebruik wordt gemaakt van milieubelastende materialen en productieprocessen. Wij willen daar verandering in brengen. Bij Sportshop Ilaro richten we ons op de verkoop van duurzame sportkleding die zowel presteert als milieuvriendelijk is. We willen sporters van alle niveaus inspireren om bewuste keuzes te maken, zonder in te leveren op kwaliteit, comfort of stijl.</p>
+    </section>
+
+    <section class="section" id="products">
+        <h2>Onze Producten</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="sport-shirt.jpg" alt="Sportshirt">
+                <h3>Duurzame Sportshirts</h3>
+                <p>Onze sportshirts zijn gemaakt van gerecyclede materialen en bieden maximaal comfort en prestaties.</p>
+            </div>
+            <div class="feature">
+                <img src="sport-shoes.jpg" alt="Sportschoenen">
+                <h3>High-Tech Sportschoenen</h3>
+                <p>Verbeter je prestaties met onze innovatieve sportschoenen, ontworpen voor duurzaamheid en stijl.</p>
+            </div>
+            <div class="feature">
+                <img src="sports-bag.jpg" alt="Sporttas">
+                <h3>Milieuvriendelijke Sporttassen</h3>
+                <p>Onze sporttassen zijn stevig, stijlvol en gemaakt van duurzame materialen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Heb je vragen of wil je meer weten over onze producten? Neem contact met ons op via <a href="mailto:info@ilarosport.com" style="color: #0078D7;">info@ilarosport.com</a> of bel ons op <strong>0651741960</strong>.</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Sportshop Ilaro. Alle rechten voorbehouden.
+    </footer>
+</body>
+</html>
